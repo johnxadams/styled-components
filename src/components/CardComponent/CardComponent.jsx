@@ -1,7 +1,7 @@
 import React from "react";
 // libraries
 import styled from "styled-components";
-import Card from "../myStyledComponents/Card";
+import Card from "../_myStyledComponents/Card";
 
 // components
 

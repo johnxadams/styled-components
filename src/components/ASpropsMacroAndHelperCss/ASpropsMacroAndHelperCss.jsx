@@ -1,8 +1,8 @@
 import React from "react";
 
 import styled from "styled-components/macro";
-import { HipsterButton } from "../myStyledComponents/Buttons";
-import { DefaultButton } from "../myStyledComponents/Buttons";
+import { HipsterButton } from "../_myStyledComponents/Buttons";
+import { DefaultButton } from "../_myStyledComponents/Buttons";
 
 /**
  * The HipsterButton is treated as='a'

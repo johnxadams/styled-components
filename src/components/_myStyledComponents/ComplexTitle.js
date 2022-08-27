@@ -5,9 +5,9 @@ const ComplexTitle = ({ title }) => {
   return (
     <Wrapper>
       <h1>{title}</h1>
-      <div className="underline"></div>
+      {/* <div className="underline"></div> */}
       {/* <h2 className="title">random</h2> */}
-      <div className="box"></div>
+      {/* <div className="box"></div> */}
     </Wrapper>
   );
 };

@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
-import BasicTitle from "../myStyledComponents/BasicTitle";
-import { DefaultButton, HipsterButton } from "../myStyledComponents/Buttons";
+import BasicTitle from "../_myStyledComponents/BasicTitle";
+import { DefaultButton, HipsterButton } from "../_myStyledComponents/Buttons";
 
 export default function BasicStyling() {
   return (

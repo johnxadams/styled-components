@@ -1,8 +1,8 @@
 import React from "react";
 import styled from "styled-components";
-import ComplexTitle from "../myStyledComponents/ComplexTitle";
-import RandomUnderline from "../myStyledComponents/RandomUnderline";
-import AlternativeTitle from "../myStyledComponents/AlternativeTitle"
+import ComplexTitle from "../_myStyledComponents/ComplexTitle";
+import RandomUnderline from "../_myStyledComponents/RandomUnderline";
+import AlternativeTitle from "../_myStyledComponents/AlternativeTitle"
 
 
 export default function MoreComplexTitle() {

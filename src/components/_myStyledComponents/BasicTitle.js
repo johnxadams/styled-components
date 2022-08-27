@@ -1,5 +1,7 @@
 import styled from "styled-components";
 
+import Product from "../Products/Products";
+
 const BasicTitle = styled.h1`
   text-align: center;
   text-transform: capitalize;

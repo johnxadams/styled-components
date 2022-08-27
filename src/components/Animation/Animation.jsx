@@ -1,6 +1,6 @@
 import React from 'react'
 
-import Loading from '../myStyledComponents/LoadingAnimation'
+import Loading from '../_myStyledComponents/LoadingAnimation'
 
 export default function Animation() {
   return (

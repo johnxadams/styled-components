@@ -7,7 +7,7 @@ import {
   BaseTheme,
   DarkTheme,
   SwitchLightAndDark,
-} from "../myStyledComponents/BaseTheme";
+} from "../_myStyledComponents/BaseTheme";
 
 
 export default function LightAndDarkTheme() {
