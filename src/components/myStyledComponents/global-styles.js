@@ -1,5 +1,8 @@
+import { createGlobalStyle } from "styled-components";
 
-/* :root {
+const GlobalStyles = createGlobalStyle`
+
+:root {
 --primary: #645cff;
 --mainBorder: 1px solid red;
 --white: #fff;
@@ -13,15 +16,8 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background: #f2f4f8;
-} */
+}
 
-.title {
-  text-align: center;
-  text-transform: capitalize;
-}
-.section-title{
-  color: red;
-}
 .btn {
   background: #645cff;
   color: #fff;
@@ -34,16 +30,11 @@ body {
   width: 200px;
   margin: 1rem auto;
 }
+`;
 
-.bg-grey {
-  background: grey;
-}
+export default GlobalStyles;
 
-.title {
-  text-transform: uppercase;
-  color: red;
-}
-
-/* @media  screen and (min-width: 768px){
-  
-} */
+// import Globalstyle in the root of our project: App.js.
+/** inside of App.js,
+ * Globalstyles should be the first component
+ * to add inside the return rfc ()*/
